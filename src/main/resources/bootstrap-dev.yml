@@ -8,8 +8,8 @@ spring:
     config:
       uri: http://localhost:8888
 
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
